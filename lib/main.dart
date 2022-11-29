@@ -15,8 +15,8 @@ class MyInicio extends StatelessWidget {
     return new MaterialApp(
       title: "WhatsappDemo",
       theme: new ThemeData(
-        primaryColor: new Color(0xff00695C),
-        accentColor: new Color(0xff004D11),
+        primaryColor: new Color(0xFFFFFF8D),
+        accentColor: new Color(0xFFFFFF8D),
       ),
       debugShowCheckedModeBanner: false,
       home: new WhatsAppHome(),
