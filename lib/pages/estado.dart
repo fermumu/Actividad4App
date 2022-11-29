@@ -24,7 +24,7 @@ class _EstadoState extends State<Estado> {
               status[2].name,
               style: new TextStyle(fontWeight: FontWeight.bold),
             ),
-            subtitle: new Text("Texto escrito"),
+            subtitle: new Text("Mensaje Escrito"),
           ),
           new Text("Recientes",
               style: new TextStyle(
