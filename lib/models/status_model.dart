@@ -25,4 +25,8 @@ List<StatusModel> status = [
       imageUrl: messageData[3].imageUrl,
       name: messageData[3].name,
       time: messageData[3].time)
+  new StatusModel(
+      imageUrl: messageData[3].imageUrl,
+      name: messageData[4].name,
+      time: messageData[4].time)
 ];
