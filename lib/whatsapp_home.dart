@@ -12,6 +12,15 @@ class WhatsAppHome extends StatefulWidget {
 
 class _WhatsAppHomeState extends State<WhatsAppHome>
     with SingleTickerProviderStateMixin {
+  late TabController _time;
+  @override
+  void initState() {
+    super.initState();
+    _tabController = new TabController(length: 4, vsync: this, initialIndex: 1);
+  }}
+
+class _WhatsAppHomeState extends State<WhatsAppHome>
+    with SingleTickerProviderStateMixin {
   late TabController _tabController;
   @override
   void initState() {
