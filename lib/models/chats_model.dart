@@ -48,4 +48,11 @@ List<ChatsModel> messageData = [
       time: "14:45",
       imageUrl:
           "https://media-exp1.licdn.com/dms/image/C4E03AQGOqwhAKW6C2w/profile-displayphoto-shrink_200_200/0/1580352671756?e=2147483647&v=beta&t=TGRMWjFFkGbIspWtIQP37yEfQPObibVcsJXrGP6vfKw")
+
+  new ChatsModel(
+      name: "Fernando Muñoz",
+      message: "Hola",
+      time: "14:45",
+      imageUrl:
+          "https://media-exp1.licdn.com/dms/image/C4E03AQGOqwhAKW6C2w/profile-displayphoto-shrink_200_200/0/1580352671756?e=2147483647&v=beta&t=TGRMWjFFkGbIspWtIQP37yEfQPObibVcsJXrGP6vfKw")
 ];
